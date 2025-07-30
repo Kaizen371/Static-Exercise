@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine(TempConverter.FerToCel(100));
+            Console.WriteLine(TempConverter.CelToFer(89.3));
         }
     }
 }
